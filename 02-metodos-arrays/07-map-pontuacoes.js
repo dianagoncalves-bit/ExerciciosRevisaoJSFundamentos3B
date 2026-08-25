@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+const map = [20, 35, 40, 55]
+
+const novomap = map.map(pontos =>  pontos * 2
+);
+
+console.log(map)
+console.log(novomap)

@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+const horasTrabalhadas = [8, 7, 8, 6, 8];
+
+const totalDeHoras = horasTrabalhadas.reduce((acumulador, valorAtual) => {
+    return acumulador + valorAtual;
+})
+
+console.log(totalDeHoras)

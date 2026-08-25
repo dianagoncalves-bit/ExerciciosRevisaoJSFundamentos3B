@@ -5,3 +5,7 @@
 //
 // Escreva sua solução abaixo:
 
+function convertor(tempo){
+    return ` ${tempo} minutos são equivalente a ${tempo*60}`
+}
+console.log(convertor(59));

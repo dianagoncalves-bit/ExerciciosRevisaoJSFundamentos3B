@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+const ingresso = {
+    evento: "Selwyn Kane 666",
+    preco: 103,
+    quantidade: 1
+}
+let alterarPreco = preco * 2
+

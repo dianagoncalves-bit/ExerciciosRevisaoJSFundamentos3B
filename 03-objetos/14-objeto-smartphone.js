@@ -4,3 +4,11 @@
 //
 // Escreva sua solução abaixo:
 
+const smartphone = {
+    marca: "xiaomi",
+    modelo: "Pituxanismo",
+    armazenamento: "666GB",
+    ligado: true
+};
+
+console.log(smartphone);

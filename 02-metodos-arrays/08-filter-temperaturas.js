@@ -4,3 +4,8 @@
 //
 // Escreva sua solução abaixo:
 
+const temperaturas = [18, 25, 31, 16, 29, 35, 22]
+
+const NovasTemps = temperaturas.filter(temperaturas => temperaturas >= 25)
+
+console.log(NovasTemps)

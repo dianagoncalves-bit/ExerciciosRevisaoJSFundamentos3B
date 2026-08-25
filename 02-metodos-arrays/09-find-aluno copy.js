@@ -12,6 +12,6 @@ const alunos = [
     { nome: "Diana Gouveia", matricula: 782 }
 ];
 
-const alunoEncontrado = alunos.find(codigo => codigo.matricula === 666);
+const encontrar = alunos.find(codigo => codigo.matricula === 666);
 
-console.log(alunoEncontrado);
+console.log(encontrar);

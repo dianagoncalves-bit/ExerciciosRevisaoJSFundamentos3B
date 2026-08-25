@@ -3,4 +3,9 @@
 // Utilize forEach() para mostrar cada cidade em letras maiúsculas.
 //
 // Escreva sua solução abaixo:
+ 
+const cidades = ["Osasco", "Itanhaem", "Mangagua", "Peruibe", "Ubutuba"]
 
+cidades.forEach(municipio => {
+    console.log(municipio.toUpperCase()); 
+});

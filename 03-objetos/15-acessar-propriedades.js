@@ -4,3 +4,11 @@
 //
 // Escreva sua solução abaixo:
 
+let paciente = {
+    nome: "Selwyn Kane",
+    idade: 18,
+    convenio: "Elixir Merlin "
+};
+
+console.log(paciente.nome);     
+console.log(paciente.convenio); 
