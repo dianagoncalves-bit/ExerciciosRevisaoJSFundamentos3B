@@ -10,5 +10,9 @@ const ingresso = {
     preco: 103,
     quantidade: 1
 }
-let alterarPreco = preco * 2
+console.log("comoEraAntes:", { ...ingresso })
 
+ingresso.preco = 309
+ingresso.quantidade += 2;
+
+console.log("comoEAgora:", ingresso);

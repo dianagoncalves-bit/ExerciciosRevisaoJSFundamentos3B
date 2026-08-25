@@ -5,3 +5,13 @@
 //
 // Escreva sua solução abaixo:
 
+const circulo = {
+  raio: 5,
+  calcularArea() {
+    return Math.PI * this.raio * this.raio;
+  }
+};
+
+const areaFormatada = circulo.calcularArea().toFixed(2);
+
+console.log(`A área do círculo com raio ${circulo.raio} é: ${areaFormatada}`);

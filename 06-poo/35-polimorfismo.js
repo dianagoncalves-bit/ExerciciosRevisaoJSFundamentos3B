@@ -6,3 +6,33 @@
 //
 // Escreva sua solução abaixo:
 
+class Pagamento {
+  processar() {
+    return "Processando pagamento...";
+  }
+}
+
+class Pix extends Pagamento {
+
+  processar() {
+    return "Pagamento via pix: QR Code gerado. aguardando assinatura digital...";
+  }
+}
+
+class Cartao extends Pagamento {
+
+  processar() {
+    return "Pagamento via cartão: conectando com a operadora... transação autorizada!";
+  }
+}
+
+
+const listaPagamentos = [
+  new Pix(),
+  new Cartao(),
+  new Pagamento() 
+];
+
+listaPagamentos.forEach((pagamento, index) => {
+  console.log(`[Forma ${index + 1}]: ${pagamento.processar()}`);
+});

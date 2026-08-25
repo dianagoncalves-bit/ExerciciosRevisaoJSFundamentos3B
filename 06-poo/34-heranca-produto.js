@@ -5,3 +5,31 @@
 //
 // Escreva sua solução abaixo:
 
+class Produto {
+  constructor(nome, preco) {
+    this.nome = nome;
+    this.preco = preco;
+  }
+
+  exibirDados() {
+    return `Produto: ${this.nome} | Preço: R$ ${this.preco.toFixed(2)}`;
+  }
+}
+
+class ProdutoDigital extends Produto {
+  constructor(nome, preco, tamanhoArquivo) {
+
+    super(nome, preco); 
+    this.tamanhoArquivo = tamanhoArquivo; 
+  }
+
+
+  exibirDados() {
+    
+    return `${super.exibirDados()} | Tamanho: ${this.tamanhoArquivo}MB`;
+  }
+}
+
+
+const ebook = new ProdutoDigital("E-book Principe Cruel", 29.90, 15);
+console.log(ebook.exibirDados());

@@ -4,3 +4,8 @@
 //
 // Escreva sua solução abaixo:
 
+const jsonString = '{"titulo":"Curso de Node.js","duracao":40,"ativo":true}'
+
+const curso = JSON.parse(jsonString);
+
+console.log(`Duração do curso: ${curso.duracao} horas`);

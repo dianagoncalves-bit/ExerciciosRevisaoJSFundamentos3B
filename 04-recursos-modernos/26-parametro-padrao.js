@@ -5,3 +5,12 @@
 //
 // Escreva sua solução abaixo:
 
+function calcularEntrega(valor, taxa = 10) {
+  return valor + taxa;
+}
+
+const testeSemTaxa = calcularEntrega(50);
+console.log(`Entrega omitindo a taxa (50 + 10): R$ ${testeSemTaxa}`);
+
+const testeComTaxa = calcularEntrega(50, 25);
+console.log(`Entrega informando a taxa (50 + 25): R$ ${testeComTaxa}`);

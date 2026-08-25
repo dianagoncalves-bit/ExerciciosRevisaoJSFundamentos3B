@@ -5,3 +5,12 @@
 //
 // Escreva sua solução abaixo:
 
+const jogos = [
+  { titulo: "shadow of the colossus", plataforma: "playstation 5", classificacao: "12 +" },
+  { titulo: "Genshin Impact", plataforma: "Todas menos nintendo", classificacao: "12 +" },
+  { titulo: "", plataforma: "Todas menos nintendo", classificacao: "12 +" }
+];
+
+jogos.forEach(jogo => {
+  console.log(`Jogo: ${jogo.titulo} | Plataforma: ${jogo.plataforma}`);
+});

@@ -5,3 +5,12 @@
 //
 // Escreva sua solução abaixo:
 
+const reserva = {
+    codigo: 666999,
+    hospede: "Selwyn Kane",
+    numeroNoite:30
+}
+
+const objeto = JSON.stringify(reserva);
+
+console.log(objeto)
